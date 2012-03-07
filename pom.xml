@@ -37,7 +37,7 @@
 					</excludes>
 					<archive>
 						<manifest>
-							<mainClass>de.bauer.utils.SmbCopy</mainClass>
+							<mainClass>de.ruemar.utils.SmbCopy</mainClass>
 							<addClasspath>true</addClasspath>
 							<classpathPrefix>lib/</classpathPrefix>
 							
