@@ -1,0 +1,31 @@
+<assembly>
+
+	<id>smbCopyDist</id>
+	<formats>
+		<format>zip</format>
+	</formats>
+	<includeBaseDirectory>true</includeBaseDirectory>
+	<baseDirectory>smbCopy</baseDirectory>
+	
+
+	<dependencySets>
+		<dependencySet>
+			<outputDirectory>lib</outputDirectory>
+			<scope>runtime</scope>
+			<useProjectArtifact>false</useProjectArtifact>
+		</dependencySet>
+	</dependencySets>
+	<fileSets>
+		<fileSet>
+			<directory>src/main/resources</directory>
+			<outputDirectory>conf</outputDirectory>
+		</fileSet>		
+	</fileSets>
+	<files>
+			<file>
+				<source>target/${project.name}.jar</source>
+				<outputDirectory></outputDirectory>
+			</file>
+		</files>
+
+</assembly>
