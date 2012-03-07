@@ -11,7 +11,7 @@ public class SmbProperties {
 	private Properties prop;
 
 	public SmbProperties() throws IOException {
-		
+		//
 		URL url =  ClassLoader.getSystemResource("smb.properties");
 		Properties p = new Properties();
 		p.load(new FileInputStream(new File(url.getFile())));
